@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fannfloat", "fannfloat\fannfloat.vcxproj", "{EF62B36A-5C42-4087-8B11-3ABA637A2C1C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fannUsage", "fannUsage\fannUsage.vcxproj", "{82AD08D9-24E7-4F26-B2B3-3158443D60F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF62B36A-5C42-4087-8B11-3ABA637A2C1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF62B36A-5C42-4087-8B11-3ABA637A2C1C}.Debug|Win32.Build.0 = Debug|Win32
+		{EF62B36A-5C42-4087-8B11-3ABA637A2C1C}.Release|Win32.ActiveCfg = Release|Win32
+		{EF62B36A-5C42-4087-8B11-3ABA637A2C1C}.Release|Win32.Build.0 = Release|Win32
+		{82AD08D9-24E7-4F26-B2B3-3158443D60F1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82AD08D9-24E7-4F26-B2B3-3158443D60F1}.Debug|Win32.Build.0 = Debug|Win32
+		{82AD08D9-24E7-4F26-B2B3-3158443D60F1}.Release|Win32.ActiveCfg = Release|Win32
+		{82AD08D9-24E7-4F26-B2B3-3158443D60F1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

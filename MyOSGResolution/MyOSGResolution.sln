@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextureCubeMap", "MyOSGResolution\MyOSGResolution.vcxproj", "{79B3A75D-C036-4953-A133-0CBF8B55DA5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TraveManipulator", "TraveManipulator\TraveManipulator.vcxproj", "{BD242047-0989-466D-95C7-46B36B3F3410}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myOsgTry", "myOsgTry\myOsgTry.vcxproj", "{203A6FBD-FE67-4743-9CCA-59374CD46C7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewWifiControlled", "NewWifiControlled\NewWifiControlled.vcxproj", "{FCD2F982-2140-486F-9DEE-4473DDF22827}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "my_OSG_MFC_try", "my_OSG_MFC_try\my_OSG_MFC_try.vcxproj", "{F392312D-88A0-482D-8C97-43C36F370C27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSG_Exercise", "OSG_Exercise\OSG_Exercise.vcxproj", "{D6B3F43B-E9DC-4D09-A054-65182977F7A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79B3A75D-C036-4953-A133-0CBF8B55DA5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79B3A75D-C036-4953-A133-0CBF8B55DA5E}.Debug|Win32.Build.0 = Debug|Win32
+		{79B3A75D-C036-4953-A133-0CBF8B55DA5E}.Release|Win32.ActiveCfg = Release|Win32
+		{79B3A75D-C036-4953-A133-0CBF8B55DA5E}.Release|Win32.Build.0 = Release|Win32
+		{BD242047-0989-466D-95C7-46B36B3F3410}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD242047-0989-466D-95C7-46B36B3F3410}.Debug|Win32.Build.0 = Debug|Win32
+		{BD242047-0989-466D-95C7-46B36B3F3410}.Release|Win32.ActiveCfg = Release|Win32
+		{BD242047-0989-466D-95C7-46B36B3F3410}.Release|Win32.Build.0 = Release|Win32
+		{203A6FBD-FE67-4743-9CCA-59374CD46C7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{203A6FBD-FE67-4743-9CCA-59374CD46C7B}.Debug|Win32.Build.0 = Debug|Win32
+		{203A6FBD-FE67-4743-9CCA-59374CD46C7B}.Release|Win32.ActiveCfg = Release|Win32
+		{203A6FBD-FE67-4743-9CCA-59374CD46C7B}.Release|Win32.Build.0 = Release|Win32
+		{FCD2F982-2140-486F-9DEE-4473DDF22827}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCD2F982-2140-486F-9DEE-4473DDF22827}.Debug|Win32.Build.0 = Debug|Win32
+		{FCD2F982-2140-486F-9DEE-4473DDF22827}.Release|Win32.ActiveCfg = Release|Win32
+		{FCD2F982-2140-486F-9DEE-4473DDF22827}.Release|Win32.Build.0 = Release|Win32
+		{F392312D-88A0-482D-8C97-43C36F370C27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F392312D-88A0-482D-8C97-43C36F370C27}.Debug|Win32.Build.0 = Debug|Win32
+		{F392312D-88A0-482D-8C97-43C36F370C27}.Release|Win32.ActiveCfg = Release|Win32
+		{F392312D-88A0-482D-8C97-43C36F370C27}.Release|Win32.Build.0 = Release|Win32
+		{D6B3F43B-E9DC-4D09-A054-65182977F7A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6B3F43B-E9DC-4D09-A054-65182977F7A7}.Debug|Win32.Build.0 = Debug|Win32
+		{D6B3F43B-E9DC-4D09-A054-65182977F7A7}.Release|Win32.ActiveCfg = Release|Win32
+		{D6B3F43B-E9DC-4D09-A054-65182977F7A7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

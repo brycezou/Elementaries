@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="viMatrixCalculator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blob.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlobContour.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlobOperators.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlobResult.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentLabeling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fann.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fann_cascade.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fann_error.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fann_io.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fann_train.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fann_train_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="floatfann.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ittFann.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="blob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobContour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobLibraryConfiguration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobOperators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentLabeling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="viMatrixCalculator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="compat_time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fann.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fann_activation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fann_cascade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fann_cpp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fann_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fann_error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fann_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fann_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fann_train.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="floatfann.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ittFann.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

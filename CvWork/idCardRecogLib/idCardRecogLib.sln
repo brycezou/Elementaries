@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "viCardRecogLib", "viCardRecogLib\viCardRecogLib.vcxproj", "{B27948AF-6CA6-4F49-BD48-0670BF006299}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "viMatrixCalculator", "viMatrixCalculator\viMatrixCalculator.vcxproj", "{4AF204F4-5350-48D4-94F4-A57A574E2AE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "getTrainImage", "getTrainImage\getTrainImage.vcxproj", "{48EE5BF6-E800-420B-886D-602BA64F9AAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "getFannFile", "getFannFile\getFannFile.vcxproj", "{A96AA2E9-4CB0-43EE-A858-480094B3483A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B27948AF-6CA6-4F49-BD48-0670BF006299}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B27948AF-6CA6-4F49-BD48-0670BF006299}.Debug|Win32.Build.0 = Debug|Win32
+		{B27948AF-6CA6-4F49-BD48-0670BF006299}.Release|Win32.ActiveCfg = Release|Win32
+		{B27948AF-6CA6-4F49-BD48-0670BF006299}.Release|Win32.Build.0 = Release|Win32
+		{4AF204F4-5350-48D4-94F4-A57A574E2AE4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4AF204F4-5350-48D4-94F4-A57A574E2AE4}.Debug|Win32.Build.0 = Debug|Win32
+		{4AF204F4-5350-48D4-94F4-A57A574E2AE4}.Release|Win32.ActiveCfg = Release|Win32
+		{4AF204F4-5350-48D4-94F4-A57A574E2AE4}.Release|Win32.Build.0 = Release|Win32
+		{48EE5BF6-E800-420B-886D-602BA64F9AAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48EE5BF6-E800-420B-886D-602BA64F9AAA}.Debug|Win32.Build.0 = Debug|Win32
+		{48EE5BF6-E800-420B-886D-602BA64F9AAA}.Release|Win32.ActiveCfg = Release|Win32
+		{48EE5BF6-E800-420B-886D-602BA64F9AAA}.Release|Win32.Build.0 = Release|Win32
+		{A96AA2E9-4CB0-43EE-A858-480094B3483A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A96AA2E9-4CB0-43EE-A858-480094B3483A}.Debug|Win32.Build.0 = Debug|Win32
+		{A96AA2E9-4CB0-43EE-A858-480094B3483A}.Release|Win32.ActiveCfg = Release|Win32
+		{A96AA2E9-4CB0-43EE-A858-480094B3483A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

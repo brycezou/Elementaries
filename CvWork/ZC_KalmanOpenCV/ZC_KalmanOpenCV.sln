@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZC_KalmanOpenCV", "ZC_KalmanOpenCV\ZC_KalmanOpenCV.vcxproj", "{C08693BB-A655-41B3-88F2-AA6705895ACB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZC_BoxOpenGL", "ZC_BoxOpenGL\ZC_BoxOpenGL.vcxproj", "{EDD09A42-F1EB-431F-9098-B3EAF19DEB67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZC_FaceDetectionOpenCV", "ZC_FaceDetectionOpenCV\ZC_FaceDetectionOpenCV.vcxproj", "{038875C2-4B8B-4796-A741-0D8D23C589DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlappyBird_GL", "FlappyBird_GL\FlappyBird_GL.vcxproj", "{AB9FEE2E-4C1E-4503-9E3B-C008FDCEAF6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C08693BB-A655-41B3-88F2-AA6705895ACB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C08693BB-A655-41B3-88F2-AA6705895ACB}.Debug|Win32.Build.0 = Debug|Win32
+		{C08693BB-A655-41B3-88F2-AA6705895ACB}.Release|Win32.ActiveCfg = Release|Win32
+		{C08693BB-A655-41B3-88F2-AA6705895ACB}.Release|Win32.Build.0 = Release|Win32
+		{EDD09A42-F1EB-431F-9098-B3EAF19DEB67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDD09A42-F1EB-431F-9098-B3EAF19DEB67}.Debug|Win32.Build.0 = Debug|Win32
+		{EDD09A42-F1EB-431F-9098-B3EAF19DEB67}.Release|Win32.ActiveCfg = Release|Win32
+		{EDD09A42-F1EB-431F-9098-B3EAF19DEB67}.Release|Win32.Build.0 = Release|Win32
+		{038875C2-4B8B-4796-A741-0D8D23C589DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{038875C2-4B8B-4796-A741-0D8D23C589DA}.Debug|Win32.Build.0 = Debug|Win32
+		{038875C2-4B8B-4796-A741-0D8D23C589DA}.Release|Win32.ActiveCfg = Release|Win32
+		{038875C2-4B8B-4796-A741-0D8D23C589DA}.Release|Win32.Build.0 = Release|Win32
+		{AB9FEE2E-4C1E-4503-9E3B-C008FDCEAF6D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB9FEE2E-4C1E-4503-9E3B-C008FDCEAF6D}.Debug|Win32.Build.0 = Debug|Win32
+		{AB9FEE2E-4C1E-4503-9E3B-C008FDCEAF6D}.Release|Win32.ActiveCfg = Release|Win32
+		{AB9FEE2E-4C1E-4503-9E3B-C008FDCEAF6D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

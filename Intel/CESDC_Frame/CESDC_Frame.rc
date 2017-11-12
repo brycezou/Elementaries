@@ -1,0 +1,303 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CESDC_Frame.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CESDC_Frame.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 CESDC_Frame"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CESDC_Frame 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CESDC_FRAME_DIALOG DIALOGEX 0, 0, 204, 227
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CESDC_Frame"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST_FRIEND_NAME,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,7,68,121
+    PUSHBUTTON      "添加好友",IDC_BUTTON_ADD_FRIEND,7,148,68,18
+    PUSHBUTTON      "删除好友",IDC_BUTTON_DELETE_FRIEND,7,166,68,18
+    PUSHBUTTON      "会议模式",IDC_BUTTON_MEETING,7,202,68,18
+    PUSHBUTTON      "飞鸽传书",IDC_BUTTON_SEND_FILE,7,184,68,18
+    CONTROL         "List2",IDC_LIST_MEMBER_NAME,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,129,7,68,175
+    PUSHBUTTON      "添加",IDC_BUTTON_ADD_MEMBER,83,36,39,16
+    PUSHBUTTON      "删除",IDC_BUTTON_DELETE_MEMBER,83,64,39,16
+    PUSHBUTTON      "开始会议",IDC_BUTTON_START_MEETING,129,183,68,18
+    PUSHBUTTON      "结束会议",IDC_BUTTON_STOP_MEETING,129,202,68,18
+    CONTROL         "",IDC_FRAME,"Static",SS_BLACKRECT | NOT WS_VISIBLE,83,7,
+                    1,213
+    PUSHBUTTON      "我的地址",IDC_BUTTON_MY_ID,7,130,68,18
+END
+
+IDD_DIALOG_ADD_FRIEND DIALOG DISCARDABLE  0, 0, 94, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AddFriend..."
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,7,36,80,15
+    PUSHBUTTON      "Cancel",IDCANCEL,7,51,80,15
+    LTEXT           "姓名:",IDC_STATIC,9,8,19,8
+    LTEXT           "IP:",IDC_STATIC,18,23,10,8
+    EDITTEXT        IDC_EDIT_NAME,30,7,57,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IP,30,22,57,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_MEETING_SELECT DIALOG DISCARDABLE  0, 0, 64, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Selecting..."
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "Master",IDOK,7,7,50,18
+    PUSHBUTTON      "Slave",IDCANCEL,7,25,50,18
+END
+
+IDD_DIALOG_TONG_BU DIALOG DISCARDABLE  0, 0, 499, 293
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SlaveTongBuDlg"
+FONT 10, "System"
+BEGIN
+    CONTROL         "",IDC_PICTURE,"Static",SS_BITMAP,0,0,20,20
+END
+
+IDD_DIALOG_SEND_FILE DIALOGEX 0, 0, 89, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,7,72,75,21
+    PUSHBUTTON      "Cancel",IDCANCEL,45,55,37,16
+    CONTROL         "List1",IDC_LIST_FILE_PATH,"SysListView32",LVS_SMALLICON | 
+                    WS_BORDER | WS_TABSTOP,7,7,75,47,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "Browse",IDC_BUTTON_CHOOSE_FILE,7,55,37,16
+END
+
+IDD_DIALOG_MY_IP DIALOG DISCARDABLE  0, 0, 71, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MyIP"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,7,25,57,21
+    EDITTEXT        IDC_EDIT_MY_IPADDR,7,7,57,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_DISABLED
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "CESDC_Frame Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CESDC_Frame\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2012\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CESDC_Frame.EXE\0"
+            VALUE "ProductName", "CESDC_Frame 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CESDC_FRAME_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_DIALOG_ADD_FRIEND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 87
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_DIALOG_MEETING_SELECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 57
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_DIALOG_SEND_FILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 82
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_DIALOG_MY_IP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 64
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 CESDC_Frame(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\CESDC_Frame.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

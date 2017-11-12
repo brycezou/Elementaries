@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CESDC_Frame - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3DFE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/CESDC_Frame.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\¿ª·¢°å°æ\CESDC_Frame\CESDC_FrameDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3DFE.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3DFF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CESDC_Frame.pdb" /debug /machine:I386 /out:"Debug/CESDC_Frame.exe" /pdbtype:sept 
+".\Debug\CESDC_Frame.obj"
+".\Debug\CESDC_FrameDlg.obj"
+".\Debug\EditFriendInfoDlg.obj"
+".\Debug\FriendInfo.obj"
+".\Debug\MasterOrSlave.obj"
+".\Debug\MyAddr.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TongBuDlg.obj"
+".\Debug\TransFileDlg.obj"
+".\Debug\CESDC_Frame.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3DFF.tmp"
+<h3>Output Window</h3>
+Compiling...
+CESDC_FrameDlg.cpp
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP40ED.tmp" with contents
+[
+/nologo /o"Debug/CESDC_Frame.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\CESDC_Frame.sbr"
+".\Debug\CESDC_FrameDlg.sbr"
+".\Debug\EditFriendInfoDlg.sbr"
+".\Debug\FriendInfo.sbr"
+".\Debug\MasterOrSlave.sbr"
+".\Debug\MyAddr.sbr"
+".\Debug\TongBuDlg.sbr"
+".\Debug\TransFileDlg.sbr"]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP40ED.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CESDC_Frame.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

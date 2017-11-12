@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegisterColorImage", "RegisterColorImage\CorrectPoints.vcxproj", "{7850BF3A-4816-4AD4-95C5-7DC42A52F992}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GetCoupleImage", "GetCoupleImage\SaveDepthImage.vcxproj", "{69C04E73-2FF4-4C96-A0FE-751F380E9172}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OccFaceDetectFromVideo", "OccFaceDetectFromVideo\FaceDetectionInDepth.vcxproj", "{3B4E3D34-80D0-4C7F-9E1B-ED5021AB0FBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenerateFeatureFile", "GenerateFeatureFile\GenerateFeatureFile.vcxproj", "{EC699B6B-E3CE-4B28-9D37-CBD4CE700F68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7850BF3A-4816-4AD4-95C5-7DC42A52F992}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7850BF3A-4816-4AD4-95C5-7DC42A52F992}.Debug|Win32.Build.0 = Debug|Win32
+		{7850BF3A-4816-4AD4-95C5-7DC42A52F992}.Release|Win32.ActiveCfg = Release|Win32
+		{7850BF3A-4816-4AD4-95C5-7DC42A52F992}.Release|Win32.Build.0 = Release|Win32
+		{69C04E73-2FF4-4C96-A0FE-751F380E9172}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69C04E73-2FF4-4C96-A0FE-751F380E9172}.Debug|Win32.Build.0 = Debug|Win32
+		{69C04E73-2FF4-4C96-A0FE-751F380E9172}.Release|Win32.ActiveCfg = Release|Win32
+		{69C04E73-2FF4-4C96-A0FE-751F380E9172}.Release|Win32.Build.0 = Release|Win32
+		{3B4E3D34-80D0-4C7F-9E1B-ED5021AB0FBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B4E3D34-80D0-4C7F-9E1B-ED5021AB0FBD}.Debug|Win32.Build.0 = Debug|Win32
+		{3B4E3D34-80D0-4C7F-9E1B-ED5021AB0FBD}.Release|Win32.ActiveCfg = Release|Win32
+		{3B4E3D34-80D0-4C7F-9E1B-ED5021AB0FBD}.Release|Win32.Build.0 = Release|Win32
+		{EC699B6B-E3CE-4B28-9D37-CBD4CE700F68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC699B6B-E3CE-4B28-9D37-CBD4CE700F68}.Debug|Win32.Build.0 = Debug|Win32
+		{EC699B6B-E3CE-4B28-9D37-CBD4CE700F68}.Release|Win32.ActiveCfg = Release|Win32
+		{EC699B6B-E3CE-4B28-9D37-CBD4CE700F68}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
